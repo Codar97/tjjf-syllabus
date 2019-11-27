@@ -1,0 +1,31 @@
+{
+  "name": "tjjf-syllabus",
+  "version": "1.0.0",
+  "description": "The Jiu Jitsu Foundation Syllabus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "tjjf",
+    "jitsu",
+    "syllabus"
+  ],
+  "author": "Sam Clark",
+  "license": "MIT",
+  "dependencies": {
+    "react": "latest",
+    "@storybook/theming": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-links": "^5.2.6",
+    "@storybook/addon-notes": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "babel-loader": "^8.0.6"
+  }
+}
