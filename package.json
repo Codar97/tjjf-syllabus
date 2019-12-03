@@ -16,8 +16,8 @@
   "author": "Sam Clark",
   "license": "MIT",
   "dependencies": {
-    "react": "latest",
-    "@storybook/theming": "latest"
+    "@storybook/theming": "latest",
+    "react": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
