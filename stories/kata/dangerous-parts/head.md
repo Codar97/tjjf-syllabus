@@ -4,7 +4,7 @@ Number | Location | Attack | Alternative
 -|-|-|-|
 1 | Temple | Backfist | -
 2 | Bridge of nose | Hammerfist | -
-3 | Eyes | Two fingers | -a
+3 | Eyes | Two fingers | -
 4 | Mastoids | Two fingers | Using thumbs
 5 | Philtrum | Palm heel | -
 6 | Jaw | Hammerfist | Punch to side
