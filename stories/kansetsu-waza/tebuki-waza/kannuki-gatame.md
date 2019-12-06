@@ -1,3 +1,4 @@
+<!---arm lock 1 inside--->
 # Kannuki Gatame
 
 Language | Name

@@ -1,11 +1,12 @@
-import {configure, addParameters} from '@storybook/react';
+import {addParameters, configure} from '@storybook/react';
 import style from './styling.js';
 
 const order = [
   'Purple',
   'Light Blue',
   'Kansetsu',
-  'Kata',
+  'Katame',
+  'Kata\'s',
   'Nage no kata / Te waza',
   'Nage no kata / Koshi waza',
   'Nage no kata / Ashi waza',
@@ -22,7 +23,6 @@ addParameters({
         if (a[1].kind.includes(order[index])) aIndex = index;
         if (b[1].kind.includes(order[index])) bIndex = index;
       }
-
       return aIndex === bIndex ? 0 : aIndex < bIndex ? -1 : 1
     },
     showPanel: false,

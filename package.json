@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "keywords": [
     "tjjf",
+    "jiu",
     "jitsu",
     "syllabus"
   ],
@@ -17,15 +18,19 @@
   "license": "MIT",
   "dependencies": {
     "@storybook/theming": "latest",
-    "react": "latest"
+    "react": "latest",
+    "@storybook/core-events": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
-    "@storybook/addon-actions": "^5.2.6",
-    "@storybook/addon-links": "^5.2.6",
-    "@storybook/addon-notes": "^5.2.6",
-    "@storybook/addons": "^5.2.6",
-    "@storybook/react": "^5.2.6",
-    "babel-loader": "^8.0.6"
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addon-notes": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2"
   }
 }
