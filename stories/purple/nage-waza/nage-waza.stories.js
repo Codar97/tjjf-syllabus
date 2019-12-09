@@ -1,13 +1,13 @@
 import React from 'react';
 import {Video} from "../../../src/components/video";
-import ochiGariNotes from './ouchi-gari.md';
-import kochiGariNotes from './kouchi-gari.md';
+import oUchiGariNotes from './o-uchi-gari.md';
+import koUchiGariNotes from './ko-uchi-gari.md';
 import tsuriKomiGoshiNotes from './tsuri-komi-goshi.md';
 import kotomoeSeoiNageNotes from './kotomoe-seoi-nage.md';
 import haneGoshiNotes from './hane-goshi.md';
 import ashiGurumaNotes from './ashi-guruma.md';
 import ogurumaNotes from './o-guruma.md';
-import osotoOtoshiNotes from './o-soto-otoshi.md';
+import oSotoOtoshiNotes from './o-soto-otoshi.md';
 import yokoOtoshiNotes from './yoko-otoshi.md';
 import yamaArashiNotes from './yama-arashi.md';
 
@@ -17,12 +17,12 @@ export default {
 export const OuchiGari = () => <Video url='UpwOqeG26o4'/>;
 OuchiGari.story = {
   name: 'Ouchi gari',
-  parameters: {notes: ochiGariNotes},
+  parameters: {notes: oUchiGariNotes},
 };
 export const KochiGari = () => <Video url='vLUHRV7jKNU'/>;
 KochiGari.story = {
   name: 'Kouchi gari',
-  parameters: {notes: kochiGariNotes},
+  parameters: {notes: koUchiGariNotes},
 };
 export const TsuriKomiGoshi = () => <Video url='Ms3PdW2COmY'/>;
 TsuriKomiGoshi.story = {
@@ -52,7 +52,7 @@ Oguruma.story = {
 export const OsotoOtoshi = () => <Video url='MkTTFz7fC10'/>;
 OsotoOtoshi.story = {
   name: 'Osoto otoshi',
-  parameters: {notes: osotoOtoshiNotes},
+  parameters: {notes: oSotoOtoshiNotes},
 };
 export const YokoOtoshi = () => <Video url='0boVRcdkwUw'/>;
 YokoOtoshi.story = {
