@@ -11,8 +11,7 @@ import ushiroKezaGatameNotes from './ushiro-keza-gatame.md';
 import jujiGatameNotes from './juji-gatame.md';
 import udeGaramiNotes from './ude-garami.md';
 import udeGatameNotes from './ude-gatame.md';
-// import {ModelViewer} from "../../../src/components/model-viewer";
-// import kesaGatameModel from './kesagatame.html';
+
 
 export default {
   title: 'Katame waza | Osaekomi waza',
